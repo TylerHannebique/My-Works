@@ -13,7 +13,7 @@ Most of the interesting stuff will be in the Create, Step, and Draw files
 * oCuttingGame is for rhythm based minigame involving cutting carrots. It is my first attempt at creating a rhythm game.
 * oDayNightManager controls the the ingame time and draws a fiter over the game depending on the time of day
 
-If you'd be interested in an actual explination or seeing footage I'd be glad to provide.
+If you'd be interested in an actual explination or in-game footage I'd be glad to provide.
 
 
 **sort_functions.cpp.txt**
