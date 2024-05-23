@@ -12,7 +12,10 @@ void insertion_sort(RandomAccessIterator first, RandomAccessIterator last, Compa
        *(j + 1) = key; //place the value of key in the array at index j + 1
    }
 }
-//Insertion Sort: The insertion sort starts with a for loop iterating through the length of the input sub-array using variable i. Inside the loop, a variable key is set to the value of the input array at index i and a variable j is set to i - 1. Then a while loop is opened to continuously check if the key is less than the value to the left of it in the input array by comparing it with the value at j. If it is then the value of the array at index j is shifted one to the right. The loop ends when the key is no longer less than the value at j or j has reached the beginning of the input array. After the loop ends, the value of the input array at index j+1 is set to key. After the for loop has ended, the input array will have been sorted.
+//Insertion Sort: The insertion sort starts with a for loop iterating through the length of the input sub-array using variable i. Inside the loop, a variable key is set to the value of the input array at index i and a 
+variable j is set to i - 1. Then a while loop is opened to continuously check if the key is less than the value to the left of it in the input array by comparing it with the value at j. If it is then the value of the
+array at index j is shifted one to the right. The loop ends when the key is no longer less than the value at j or j has reached the beginning of the input array. After the loop ends, the value of the input array at index
+j+1 is set to key. After the for loop has ended, the input array will have been sorted.
 
 
 
