@@ -1,4 +1,4 @@
-//Insertion Sort Implementation
+**Insertion Sort Implementation**
 template<typename RandomAccessIterator, typename Comparator>
 void insertion_sort(RandomAccessIterator first, RandomAccessIterator last, Comparator comp){
    for(auto i = first; i != last; ++i){ //loop through length of array
@@ -19,7 +19,7 @@ j+1 is set to key. After the for loop has ended, the input array will have been 
 
 
 
-//Merge Implementation
+**Merge Implementation**
 void merge(RandomAccessIterator first, RandomAccessIterator mid, RandomAccessIterator last, Comparator comp){
    vector<typename RandomAccessIterator::value_type> out; //create temp array
    auto left = first; //place left iterator at first
@@ -59,7 +59,7 @@ copy the values of temp back into the original array.
 }
 
 
-//Merge_k Implementation
+**Merge_k Implementation**
 template<typename RandomAccessIterator, typename Comparator>
 void merge_k(long int k, RandomAccessIterator first, RandomAccessIterator last, Comparator comp){
    int n=last-first;
@@ -90,7 +90,7 @@ to n as well. After these variables are set, the merge function is then called u
 merged back into one singular sorted array.
 
 
-//Merge Sort Implementation
+**Merge Sort Implementation**
 template<typename RandomAccessIterator, typename Comparator>
 void merge_sort(RandomAccessIterator first, RandomAccessIterator last, Comparator comp, long int k = 1){
        int n=last-first; //length of working section
