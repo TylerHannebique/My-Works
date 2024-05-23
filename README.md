@@ -5,7 +5,7 @@ I have created this repository one to share some of the code that I have written
 **Bygone**
 
 Bygone is the game that I am currently working on alongside a small team of 6 people. It is an isometric, pixel art RPG. I am one of two programmers working on it. In the folder, I put a few of the objects that I myself coded. 
-Most of the interesting stuff will be in the Create, Step, and Draw files
+Most of the interesting stuff will be in the Create, Step, and Draw files. If you're unfiamiliar with GMS. It uses its own language appropriately titles Game Maker Language, which has syntax very similar to that of Java and C++ but only without all the strictness.
 
 * oBattle is the object that controls everything to do with the player being engaged in the games turn based battle systems.
 * oCameraManager controlls the camera movements in the game
