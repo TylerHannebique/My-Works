@@ -1,1 +1,0 @@
-layer=layer_get_id("night");
