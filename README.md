@@ -1,10 +1,7 @@
 **Hello, Welcome to my repository!**
-
 I have created this repository one to share some of the code that I have written in recent years. Below I briefly discuss each of the folders/files in the repository.
 
-/n
 **Bygone**
-
 Bygone is the game that I am currently working on alongside a small team of 6 people. It is an isometric, pixel art RPG. I am one of two programmers working on it. In the folder, I put a few of the objects that I myself coded. 
 Most of the interesting stuff will be in the Create, Step, and Draw files
 
@@ -16,20 +13,14 @@ Most of the interesting stuff will be in the Create, Step, and Draw files
 If you'd be interested in an actual explination or in-game footage I'd be glad to provide.
 As a side note: I know this game kind of stuff hardly applies to this job but its more to show that I enjoy programming outside just a career standpoint
 
-
 **inPlaceSorts.cpp**
-
 A few in place sorting algorithms I wrote for a CS assignment. Nothing much to say about them
 
 *ZeroOneSort: sorts an array of randomized 0s and 1s without allocating any more memory space than that of the starting array
 
 *ZeroOneTwoSort: sorts an array of randomized 0s, 1s, and 2s without allocating any more memory space than that of the starting array
 
-
-**inPlaceSorts**
-
 **sortFunctions.cpp**
-
 These are a few sorting related algorithms I wrote in c++ for a report. Unfortunately I don't have access to the full source code, only the functions themselves, so I copypasted them into a cpp file from my report.
 
 * insertion_sort: takes in an unsorted sequence given in [first, last) and sorts them using insertion sort approach.
