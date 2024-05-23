@@ -35,7 +35,13 @@ void merge(RandomAccessIterator first, RandomAccessIterator mid, RandomAccessIte
            ++right; //increment right
        }
    }
-//Merge: The merge function first creates a temporary vector called temp to store the merged values of two subsections. A variable left is set to first to be the initial value of the left subsection and another variable right is set to mid to be the initial value of the right subsection. Next, a while loop is opened and will run until left has reached mid or right has reached last. Inside the loop, it is first checked if the current value at left is less than the current value at right. If it is then it is pushed to temp and left is iterated by 1. Otherwise, the value at right is added to temp and right is iterated by 1. After the while loop closes, either the left or the right subsection has all their values added to temp, so the remaining values of the other subsection need to be added. The following while loop runs while there are any remaining values in the left subsection by checking if the left iterator is equal to mid. If this is true, then this conditional is skipped. Otherwise, the while loop will iterate over the remaining values of left and push them to temp. One this loop closes the same check will be done on the right subsection. After these loops close, all of the values from both subsections of the input array will be properly sorted and merged inside temp. The last step is to copy the values of temp back into the original array.
+//Merge: The merge function first creates a temporary vector called temp to store the merged values of two subsections. A variable left is set to first to be the initial value of the left subsection and another variable 
+right is set to mid to be the initial value of the right subsection. Next, a while loop is opened and will run until left has reached mid or right has reached last. Inside the loop, it is first checked if the current 
+value at left is less than the current value at right. If it is then it is pushed to temp and left is iterated by 1. Otherwise, the value at right is added to temp and right is iterated by 1. After the while loop closes,
+either the left or the right subsection has all their values added to temp, so the remaining values of the other subsection need to be added. The following while loop runs while there are any remaining values in the left 
+subsection by checking if the left iterator is equal to mid. If this is true, then this conditional is skipped. Otherwise, the while loop will iterate over the remaining values of left and push them to temp. One this 
+loop closes the same check will be done on the right subsection. After these loops close, all of the values from both subsections of the input array will be properly sorted and merged inside temp. The last step is to 
+copy the values of temp back into the original array.
 
 
 
