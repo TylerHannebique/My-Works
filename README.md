@@ -38,4 +38,4 @@ Very detailed descriptions of how each function works are provided in the file
 
 
 
-If you're curious about the game mentioned in my resume. Its called One Night at Barneys 3 on Steam and it took me and a buddy of mine who did the art 9 months to develop
+If you're curious about the game mentioned in my resume. Its called One Night at Barneys 3 on Steam and it took my buddy and I 9 months to develop
