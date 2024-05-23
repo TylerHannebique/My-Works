@@ -30,7 +30,7 @@ A few in place sorting algorithms I wrote for a CS assignment. Nothing much to s
 
 **sortFunctions.cpp**
 
-These are a few sorting related algorithms I wrote in c++ for a report. Unfortunately I don't have access to the full source code, only the functions themselves. So I copypasted them into a text file.
+These are a few sorting related algorithms I wrote in c++ for a report. Unfortunately I don't have access to the full source code, only the functions themselves, so I copypasted them into a cpp file from my report.
 
 * insertion_sort: takes in an unsorted sequence given in [first, last) and sorts them using insertion sort approach.
 * merge: takes in two sorted sequences [first, mid) and [mid, last) and merges them into a single sequence contained in [first, last).
