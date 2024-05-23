@@ -28,7 +28,7 @@ A few in place sorting algorithms I wrote for a CS assignment. Nothing much to s
 
 **inPlaceSorts**
 
-**sort_functions.cpp.txt**
+**sortFunctions.cpp**
 
 These are a few sorting related algorithms I wrote in c++ for a report. Unfortunately I don't have access to the full source code, only the functions themselves. So I copypasted them into a text file.
 
