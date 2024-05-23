@@ -1,6 +1,6 @@
 **Hello, Welcome to my repository!**
 
-I have created this repository one to share some of the code that I have written in recent years, most of which is game related stuff because that's really all I code in my free time. Below I briefly discuss each of the folders in the repository.
+I have created this repository one to share some of the code that I have written in recent years. Below I briefly discuss each of the folders/files in the repository.
 
 
 **Bygone**
