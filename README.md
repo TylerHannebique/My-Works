@@ -1,4 +1,4 @@
-**Hello, Welcome to my repository**
+**Hello, Welcome to my repository!**
 
 I have created this repository one to share some of the code that I have written in recent years, most of which is game related stuff because that's really all I code in my free time. Below I briefly discuss each of the folders in the repository.
 
@@ -14,7 +14,19 @@ Most of the interesting stuff will be in the Create, Step, and Draw files
 * oDayNightManager controls the the ingame time and draws a fiter over the game depending on the time of day
 
 If you'd be interested in an actual explination or in-game footage I'd be glad to provide.
+As a side note: I know this game kind of stuff hardly applies to this job but its more to show that I enjoy programming outside just a career standpoint
 
+
+**inPlaceSorts.cpp**
+
+A few in place sorting algorithms I wrote for a CS assignment. Nothing much to say about them
+
+*ZeroOneSort: sorts an array of randomized 0s and 1s without allocating any more memory space than that of the starting array
+
+*ZeroOneTwoSort: sorts an array of randomized 0s, 1s, and 2s without allocating any more memory space than that of the starting array
+
+
+**inPlaceSorts**
 
 **sort_functions.cpp.txt**
 
