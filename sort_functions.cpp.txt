@@ -1,0 +1,88 @@
+//Insertion Sort Implementation
+template<typename RandomAccessIterator, typename Comparator>
+void insertion_sort(RandomAccessIterator first, RandomAccessIterator last, Comparator comp){
+   for(auto i = first; i != last; ++i){ //loop through length of array
+       auto key = *i; //set key to the current array value at i
+       auto j = i - 1;
+       while(j >= first && comp(key, *j)){ //if the array at index j is less than the
+                                           // key and j is not at the beginning of the array
+           *(j + 1) = *j; //place the value of j on index to the right
+           --j; //decrement j
+       }
+       *(j + 1) = key; //place the value of key in the array at index j + 1
+   }
+}
+
+
+//Merge Implementation
+void merge(RandomAccessIterator first, RandomAccessIterator mid, RandomAccessIterator last, Comparator comp){
+   vector<typename RandomAccessIterator::value_type> out; //create temp array
+   auto left = first; //place left iterator at first
+   auto right = mid; //place right iterator at mid
+
+
+   while(left != mid && right != last){ //left is not equal to mid and right is not equal to mid
+       if(comp(*left, *right)){ //if the value at left is less than the value at right
+           out.push_back(*left); //push the value at left to the output array
+           ++left; //increment left
+       }else{ //if the value at left is greater than the value at right
+           out.push_back(*right); //push the value at right to the output array
+           ++right; //increment right
+       }
+   }
+
+
+   while (left != mid){ //while left is less than mid
+       out.push_back(*left); //push the remaining values of left
+       ++left;
+   }
+   while (right != last){ //while right is less than last
+       out.push_back(*right); //push the remaining values of right
+       ++right;
+   }
+
+
+   copy(out.begin(),out.end(),first); //copy over the output array back into the input array
+}
+
+//Merge_k Implementation
+template<typename RandomAccessIterator, typename Comparator>
+void merge_k(long int k, RandomAccessIterator first, RandomAccessIterator last, Comparator comp){
+   int n=last-first;
+
+
+   for (int subSize=k; subSize<n; subSize*=2){ //double size of subSections being merged
+       for (int start=0; start<n; start+=2*subSize) {//merge every 2 subSections of size subSize
+           int mid=start+subSize; //set mid to start + subSize
+           if (mid>=n){ //if greater than the length of input array, set mid to n
+               mid=n;
+           }
+           int end=start+2*subSize; //set end to start + 2 times the subSize
+           if (end>n){ //if greater than the length of input array, set end to n
+               end=n;
+           }
+
+
+           merge(first + start, first + mid, first + end, comp); //call merge function on the 2 subSections
+       }
+   }
+}
+
+//Merge Sort Implementation
+template<typename RandomAccessIterator, typename Comparator>
+void merge_sort(RandomAccessIterator first, RandomAccessIterator last, Comparator comp, long int k = 1){
+       int n=last-first; //length of working section
+       if(n<=k){ //will only run if subsection is of length k or less
+           insertion_sort(first, last, comp); //sort subsections
+       }else{ //otherwise split entire array into subarrays of length k or less
+           for(int i=0; i<n; i+=k){ //loop through every length k
+               if(i+k>n){ //if the current first + k is past the end of the array
+                   merge_sort(first+i, last, comp, last-(first+i)); //sub array that's less than size k
+               }else{
+                   merge_sort(first+i, first+i+k, comp, k); //sub array that is size k
+               }
+           }
+           merge_k(k, first, last, comp); //merge all subsections
+       }
+   }
+}
