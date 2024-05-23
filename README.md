@@ -14,4 +14,15 @@ Most of the interesting stuff will be in the Create, Step, and Draw files
 
 If you'd be interested in an actual explination or seeing footage I'd be glad to provide.
 
+**sort_functions.cpp.txt**
 
+These are a few sorting related algorithms I wrote for a report. Unfortunately I don't have access to the full source code, only the functions themselves. So I copypasted them into a text file.
+
+* insertion_sort: takes in an unsorted sequence given in [first, last) and sorts them using insertion sort approach.
+* merge: takes in two sorted sequences [first, mid) and [mid, last) and merges them into a single sequence contained in [first, last).
+* merge_k: takes in ⌈n/k⌉ sorted sequences defined in [first, last) and merges them into a single sequence contained in
+[first, last). Here the input k is the size of each sub-sequence excluding the last which might be smaller
+than k
+* merge_sort: unlike the the traditional merge sort, divides the sequence into subsequences of size k (a user-defined parameter), sorts each subsequence [n/k] using insertion sort, and recusrively merges the sorted [n/k] subsequences into a single sorted sequence
+
+Very detailed descriptions of how each function works are provided in the file
