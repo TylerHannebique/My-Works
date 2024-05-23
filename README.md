@@ -35,3 +35,7 @@ than k
 * merge_sort: unlike the the traditional merge sort, divides the sequence into subsequences of size k (a user-defined parameter), sorts each subsequence [n/k] using insertion sort, and recusrively merges the sorted [n/k] subsequences into a single sorted sequence
 
 Very detailed descriptions of how each function works are provided in the file
+
+
+
+If you're curious about the game mentioned in my resume. Its called One Night at Barneys 3 on Steam and it took me and a buddy of mine who did the art 9 months to develop
