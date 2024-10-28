@@ -1,6 +1,6 @@
 **Hello, Welcome to my repository!**
 
-I have created this repository one to share some of the code that I have written in recent years. Below I briefly discuss each of the folders/files in the repository.
+I have created this repository one to share some of the code that I have written in recent years.
 
 **inPlaceSorts.cpp**
 
