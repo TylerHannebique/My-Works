@@ -2,6 +2,7 @@
 
 I have created this repository one to share some of the code that I have written in recent years.
 
+
 **inPlaceSorts.cpp**
 
 A few in place sorting algorithms I wrote for a CS assignment. Nothing much to say about them
@@ -9,6 +10,7 @@ A few in place sorting algorithms I wrote for a CS assignment. Nothing much to s
 *ZeroOneSort: sorts an array of randomized 0s and 1s without allocating any more memory space than that of the starting array
 
 *ZeroOneTwoSort: sorts an array of randomized 0s, 1s, and 2s without allocating any more memory space than that of the starting array
+
 
 **sortFunctions.cpp**
 
