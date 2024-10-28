@@ -2,19 +2,6 @@
 
 I have created this repository one to share some of the code that I have written in recent years. Below I briefly discuss each of the folders/files in the repository.
 
-**Bygone**
-
-Bygone is the game that I am currently working on alongside a small team of 6 people. It is an isometric, pixel art RPG. I am one of two programmers working on it. In the folder, I put a few of the objects that I myself coded. 
-Most of the interesting stuff will be in the Create, Step, and Draw files. If you're unfiamiliar with GMS. It uses its own language appropriately titles Game Maker Language, which has syntax very similar to that of Java and C++ but only without all the strictness.
-
-* oBattle is the object that controls everything to do with the player being engaged in the games turn based battle systems.
-* oCameraManager controlls the camera movements in the game
-* oCuttingGame is for rhythm based minigame involving cutting carrots. It is my first attempt at creating a rhythm game.
-* oDayNightManager controls the the ingame time and draws a fiter over the game depending on the time of day
-
-If you'd be interested in an actual explination or in-game footage I'd be glad to provide.
-As a side note: I know this game kind of stuff hardly applies to this job but its more to show that I enjoy programming outside just a career standpoint
-
 **inPlaceSorts.cpp**
 
 A few in place sorting algorithms I wrote for a CS assignment. Nothing much to say about them
